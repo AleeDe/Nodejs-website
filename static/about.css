@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+}
+#pic img{
+    width: 400px;
+    margin-top: 119px;
+    margin-left: 70px;
+    margin-bottom: 40px;
+}
+#content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-top: 120px;
+    margin-left: 88px;    
+}
+#content h1{
+   color: red;
+    font-size: 5rem;
+    font-family: 'PT Serif', serif;
+    font-weight: bolder;
+}
+#content h3{
+   font-weight: 800;
+    font-size: 2rem;
+    margin-top: 30px;
+}
+#content h4{
+   
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+#DIRECTORS{
+    margin-top: 40px;
+    background-image: url('static/aboutusbg.png');
+    
+}
+#DIRECTORS h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+.DIRECTORS{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.DIR{
+    
+    width: 30%;
+    margin: 15px auto;
+    height: 700px;
+    padding: 20px;
+    
+}
+.DIR-img{
+    background-image: url('static/bgaboutus.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px; 
+}
+.DIR-img img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.DIR-name{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+}
+.DIR-content{
+    color: rgb(255, 253, 253);
+    font-size: 23px;
+    padding: 20px;
+    font-weight: 700;
+}
+.DIR:hover{
+    box-shadow: 0 0 5px #f35757,
+                        0 0 25px #f35757,
+                        0 0 50px #f35757;
+    cursor: pointer;
+                        
+}
+.Mentors{
+    padding-top: 40px;
+    background: #000;
+}
+.Mentors h1{
+    text-align: center;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: rgb(250, 250, 250);
+}
+
+#pg{
+    display: flex;
+    flex-direction: row;
+    background: red;
+}
+.pg-content{
+    width: 50%;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+.pg-content h2{
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+}
+.pg-content h1{
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.pg-content h4{
+    font-size: 30px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.pg-img{
+    background-image: url('static/new.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    margin: 70px;
+}
+.pg-img img{
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    left: 40px;
+    bottom: -80px;
+}
+@media screen and (max-width: 1024px){
+    #about{
+        height: 100%;
+    }
+    #pic img{
+        width: 170px;
+        margin-left: 5px;
+    }
+    #content{
+        width: 40%;
+        margin-left: 5px;    
+    }
+    #content h1{
+       color: red;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+    #content h3{
+         font-size: 1.3rem;
+         margin-top: 30px;
+         margin-left: 5px;
+     }
+     #content h4{
+        
+         font-size: 0.7rem;
+         margin-top: 10px;
+     }
+     #DIRECTORS h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    .DIR{
+        width: 30%;
+        margin: 5px auto;
+        height: 100%;
+        padding: 5px;
+        
+    }
+    .DIR-img{
+        padding: 5px; 
+    }
+    .DIR-name{
+        font-size: 16px;
+        padding: 10px;
+    }
+    .DIR-content{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .Mentors{
+        padding-top: 20px;
+    }
+    .Mentors h1{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .pg-content{
+        width: 50%;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    .pg-content h2{
+        font-size: 50px;
+    }
+    .pg-content h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .pg-content h4{
+        font-size: 10px;
+        padding-top: 5px;
+        padding-bottom: 20px;
+    }
+    .pg-img img{
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        object-fit: cover;
+        position: relative;
+        left: 10px;
+        bottom: -65px;
+    }
+  
+
+}
+

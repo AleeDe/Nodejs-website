@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#introsection{
+    background: center / cover no-repeat url("/static/bg.jpg");
+    color: rgb(255, 252, 252);
+    height: 760px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    
+}
+#one{
+    font-family: 'Rubik Bubbles', cursive;
+    margin: 30px;
+    font-size: 3rem;
+}
+
+#two{
+    font-size: 2rem;
+    font-family: 'Roboto Slab', serif;
+
+}
+#ourmission{
+    background: center / cover no-repeat url("/static/our.jpg");
+    height: 100%;
+}
+#ourmission h2{
+    text-align: center;
+    font-size: 3rem;
+    padding: 40px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.card{
+    display: inline-block;
+    border: 5px solid black;
+    border-radius: 15px;
+    width: 28%;
+    height: 250px;
+    margin: 30px;
+    padding: 15px;
+    overflow: hidden;
+}
+.card h3{
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.card-img img{
+    height: 170px;
+    margin-left: -30px;
+}
+.card-contain{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card-content p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+    margin-left: -15px;
+}
+
+#sponsorsSection{
+    background: rgb(0, 0, 0);
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+#sponsorsSection h1{
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding: 15px;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item {
+    padding: 5px;
+    margin: 15px;
+}
+
+.client-item img {
+    height: 150px;
+}
+
+.img1 {
+    margin: -10px 15px 0px 0px;
+}
+
+@media screen and (max-width: 1024px){
+    #one{
+        font-family: 'Rubik Bubbles', cursive;
+        margin: 30px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    #two{
+        font-size: 1.4rem;
+        font-family: 'Roboto Slab', serif;
+        text-align: center;
+    }
+    #ourmission{
+        height: 1050px;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        border: 5px solid rgb(247, 243, 243);
+        border-radius: 11px;
+        width: 80%;
+        height: 250px;
+        margin: 20px auto;
+        padding: 20px;
+        overflow: hidden;
+    }
+    .card h3{
+        font-size: 1.3rem;
+        color: rgb(255, 0, 0);
+    }
+    .card-img img{
+        height: 110px;
+        margin-left: -20px;
+    }
+    #img{
+        margin-bottom: 50px;
+        margin-left: -30px;
+    }
+    .card-content p{
+        font-size: 14px;
+        color: rgb(255, 255, 255);
+        margin-left: 0px;
+    }
+    #sponsorsSection h1{
+        font-size: 2rem;
+    }
+    .client-item img {
+        height: 70px;
+    }
+    .client {
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    
+}
+

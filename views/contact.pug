@@ -1,0 +1,20 @@
+extends base.pug
+
+block scripts
+        include ../static/script.js
+block style 
+    style
+        include ../static/base.css
+        include ../static/contact.css
+
+block content
+    div#cont
+        div.conatiner
+            h1 Contact us
+            form(action="/sub" method="post" id='contact')
+                input(type="text" name="name" id="name" placeholder="Enter Your Name")
+                input(type="text" name="age" id="age" placeholder="Enter Your Age")
+                input(type="text" name="gender" id="gender" placeholder="Enter Your Gender")
+                textarea(name="add" id="add" cols="30" rows="10" placeholder="Enter Your Address")
+                textarea(name="more" id="more" cols="30" rows="10" placeholder="More About You")
+                a(id='btnlas'  href="#") Submit 

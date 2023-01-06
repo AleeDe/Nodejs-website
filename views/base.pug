@@ -1,0 +1,60 @@
+//- base.pug
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    title Hurdles of Nurdles
+    block scripts
+        include ../static/script.js
+    block style 
+        style
+            include ../static/base.css
+  body
+    nav#navbar
+        ul 
+            div#logo 
+                img(src="static/pic1.png", alt="", srcset="")
+            li #[a(href="/home") Home]
+            li #[a(href="/about") About us]
+            li #[a(href="/services") Services]
+            li #[a(href="/contact") Contact us]
+    block content
+
+  footer.footer
+    .mainfooter
+            .contactus
+                p.mainhead.mainhead1 GET TO KNOW US
+                p About us
+                p Careers
+                p XOOM
+                p Cheetay in the news
+            .support
+                p.mainhead.mainhead2 SUPPORT
+                p FAQs
+                p Terms &amp; Conditions
+                p Privacy Policy
+            .letter
+                p.mainhead.mainhead3  NEWSLETTER
+                label#Detail(for='Detail', name='Detail') Stay updated subscribing to our newsletter
+                br
+                input(type='email', placeholder='your.@gmail.com')
+                br
+                button Subcribe
+    hr
+    .lastfooter
+      .copycontent
+        .cpy1
+          img(src='image/copy1.png', alt='')
+        .cpy Copyright 2022 @ Cheetay.pk
+        .socail
+          a(href='#')
+            img(src='static/slogo1.png', alt='')
+          a(href='#')
+            img(src='static/slogo2.png', alt='')
+          a(href='#')
+            img(src='static/slogo3.png', alt='')
+          a(href='#')
+            img(src='static/slogo4.png', alt='')  
+
+        
+    

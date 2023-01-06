@@ -1,0 +1,88 @@
+#cont{
+    width: 100%;
+    background: url('/static/servicescontent2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.conatiner{
+    width: 70%;
+    padding: 130px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 0px auto;
+}
+.conatiner h1{
+    font-size: 70px;
+}
+#contact{
+    margin: 15px;
+}
+input , textarea
+{
+    display: block;
+    margin: 15px auto;
+    padding: 3px;
+    width: 40%;
+    border: 3px solid black;
+    font: 15px sans-serif;
+    border-radius: 5px;
+}
+#btnlas{
+    border-radius: 30px;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 29px;
+    padding: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    display: flex;
+    width: 120px;
+    margin: 30px auto;
+    text-decoration: none;
+}
+@media screen and (max-width: 1024px){
+    #cont{
+        padding-top: 70px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .conatiner{
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        border-radius: 10px;
+        margin: 0px auto;
+        
+    }
+    .conatiner h1{
+        font-size: 40px;
+    }
+    #contact{
+        margin: 5px;
+        width: 100%;
+    }
+    input , textarea
+    {
+        display: block;
+        margin: 5px auto;
+        padding: 3px;
+        width: 40%;
+        border: 3px solid black;
+        font: 10px sans-serif;
+        border-radius: 5px;
+    }
+    #btnlas{
+        border-radius: 7px;
+        font-size: 13px;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        margin: 5px auto;
+        
+        
+        
+    }
+    
+}

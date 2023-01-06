@@ -1,0 +1,56 @@
+extends base.pug
+
+block scripts
+        include ../static/script.js
+block style 
+    style
+        include ../static/base.css
+        include ../static/style.css
+
+block content
+    section#introsection   
+        div#one Welcome To #[span Hurdles of Nurdles] Cricket Academy
+        div#two “Compromise for your Dream 
+        div#two  but 
+        div#two  never Compromise on your Dream.” – Imran Khan
+
+    section#ourmission 
+        h2 Our Mission
+        div.card
+            h3 This will be achieved by
+            div.card-contain
+                div.card-img    
+                    img(src="static/pic2.png", alt="", srcset="")
+                div.card-content 
+                    p Enhancing the skill set, consistency and qualities of leadership & team building.   
+
+        div.card
+            h3 Objectives
+            div.card-contain
+                div.card-img#img 
+                    img(src="static/pic3.png", alt="", srcset="")
+                div.card-content 
+                    p To maintain and provide all the most modern and latest material and human resources at all times.
+  
+        div.card
+            h3 Goals
+            div.card-contain
+                div.card-img    
+                    img(src="static/pic4.png", alt="", srcset="")
+                div.card-content 
+                    p To produce atleast one international player out of every 50 trainees
+
+
+    section#sponsorsSection   
+        h1 Our Sponsors
+            div.client
+                div.client-item.img1
+                    img(src="static/client1.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client2.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client3.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client4.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client5.png", alt="", srcset="")

@@ -1,0 +1,103 @@
+//- index.pug
+doctype html
+html
+  head
+    title Hurdles of Nurdles
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo 
+                img(src="static/pic1.png", alt="", srcset="")
+            li #[a(href="/") Home]
+            li #[a(href="/") About us]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+        
+    section#introsection   
+        div#one Welcome To #[span Hurdles of Nurdles] Cricket Academy
+        div#two “Compromise for your Dream 
+        div#two  but 
+        div#two  never Compromise on your Dream.” – Imran Khan
+
+    section#ourmission 
+        h2 Our Mission
+        div.card
+            h3 This will be achieved by
+            div.card-contain
+                div.card-img    
+                    img(src="static/pic2.png", alt="", srcset="")
+                div.card-content 
+                    p Enhancing the skill set, consistency and qualities of leadership & team building.   
+
+        div.card
+            h3 Objectives
+            div.card-contain
+                div.card-img    
+                    img(src="static/pic3.png", alt="", srcset="")
+                div.card-content 
+                    p To maintain and provide all the most modern and latest material and human resources at all times.
+  
+        div.card
+            h3 Goals
+            div.card-contain
+                div.card-img    
+                    img(src="static/pic4.png", alt="", srcset="")
+                div.card-content 
+                    p To produce atleast one international player out of every 50 trainees
+
+
+    section#sponsorsSection   
+        h1 Our Sponsors
+            div.client
+                div.client-item.img1
+                    img(src="static/client1.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client2.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client3.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client4.png", alt="", srcset="")
+                div.client-item
+                    img(src="static/client5.png", alt="", srcset="")
+
+    footer.footer 
+        .mainfooter
+            .contactus
+                p.mainhead.mainhead1 GET TO KNOW US
+                p About us
+                p Careers
+                p XOOM
+                p Cheetay in the news
+            .support
+                p.mainhead.mainhead2 SUPPORT
+                p FAQs
+                p Terms &amp; Conditions
+                p Privacy Policy
+            .letter
+                p.mainhead.mainhead3  NEWSLETTER
+                label#Detail(for='Detail', name='Detail') Stay updated subscribing to our newsletter
+                br
+                input(type='email', placeholder='your.@gmail.com')
+                br
+                button Subcribe
+    hr
+    .lastfooter
+      .copycontent
+        .cpy1
+          img(src='image/copy1.png', alt='')
+        .cpy Copyright 2022 @ Cheetay.pk
+        .socail
+          a(href='#')
+            img(src='static/slogo1.png', alt='')
+          a(href='#')
+            img(src='static/slogo2.png', alt='')
+          a(href='#')
+            img(src='static/slogo3.png', alt='')
+          a(href='#')
+            img(src='static/slogo4.png', alt='')  
+
+    script
+      include ../static/script.js

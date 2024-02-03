@@ -9,7 +9,7 @@ app.use('/static',express.static('static'));
 app.set('view engine', 'pug');
 app.set('views',path.join(__dirname,'views'));
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
     const tit={};
     res.status(200).render('home.pug', tit
     )});
